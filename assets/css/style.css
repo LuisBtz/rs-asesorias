@@ -1,0 +1,131 @@
+body, h1, h2, h3, h4, h5, h6, li, ul {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Helvetica' !important;
+	color: white !important;
+	font-size: 10px;
+	width: 100%;
+}
+.home {
+	position: absolute;
+}
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+.logo img {
+	width: 100px;
+}
+.hamburger {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	width: 40px;
+	border-radius: 10px;
+	border: solid 3px #FCD502;
+	padding: 10px;
+	cursor: pointer;
+}
+.hamburger:hover {
+	background: #FCD502;
+	border: solid 3px #2973FF;
+}
+.hamburger:hover .line {
+	border: solid 2px #2973FF;
+}
+.hamburger:hover .lines {
+	border: solid 2px #2973FF;
+}
+.line {
+	width: 35px;
+	border: solid 2px #FCD502;
+	margin-bottom: 10px;
+}
+.lines {
+	width: 35px;
+	border: solid 2px #FCD502;
+}
+
+section.home .lead h1 {
+	position: relative;
+	margin-top: 250px;
+	font-size: 3em;
+	color: #FCD502;
+}
+.cta {
+	color: #2973FF;
+	background: #FCD502;
+	border: solid 3px #2973FF;
+	font-size: 2.2em;
+	padding: 15px;
+	width: 300px;
+	border-radius: 10px;
+	margin: 80px auto;
+	cursor: pointer;
+}
+.cta a {
+	color: #2973FF;
+}
+.cta:hover {
+	background: #2973FF;
+	border: solid 3px #FCD502;
+}
+.cta:hover a {
+	color: #FCD502;
+}
+
+.msn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.msn img {
+	width: 65px;
+}
+
+/* Menu */
+
+.overlay {
+	position: absolute;
+	background: rgba(252, 213, 2, 0.90);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	left: 0;
+	display: none;
+}
+.x {
+	color: #2973FF;
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	cursor: pointer;
+}
+.x span {
+	font-size: 4em;
+}
+.exit img {
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	cursor: pointer;
+}
+.menu ul {
+	text-align: center;
+	margin-top: 100px;
+}
+.menu ul a {
+	color: #2973FF;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.menu ul li {
+	margin-top: 15px;
+}
