@@ -129,3 +129,16 @@ section.home .lead h1 {
 .menu ul li {
 	margin-top: 15px;
 }
+
+/* MATERIAS */
+
+.lead h2 {
+	padding-top: 150px;
+	font-size: 3em;
+	color: #FCD502;
+}
+
+.cuadro {
+	max-width: 600px;
+	background: rgba(252, 213, 2, .9);
+}
