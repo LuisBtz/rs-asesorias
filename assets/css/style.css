@@ -228,3 +228,41 @@ section.home .lead h1 {
 .cuadro .right ul li {
 	margin-bottom: 20px;
 }
+
+/* Preinscripción */
+
+label {
+	font-size: 1.3em;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.required {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: solid 2px #387AEB;
+}
+.mc-field-group {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#mc-embedded-subscribe {
+	background: none;
+	border: none;
+	color: #387AEB;
+	font-size: .9em;
+	cursor: pointer;
+}
+.cta:hover #mc-embedded-subscribe{
+	color: rgb(252, 213, 2);
+	z-index: 10;
+}
+.preinscripcion {
+	border: none;
+	color: rgb(252, 213, 2);
+	padding: 10px;
+	max-width: 200px;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	box-sizing: border-box;
+	cursor: pointer !important;
+}

@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 
 
+
 		// Cerrar overlay
     $(".x").click(function(evento){
 	        $('.overlay').css('display', 'none');
