@@ -266,3 +266,53 @@ label {
 	box-sizing: border-box;
 	cursor: pointer !important;
 }
+
+.info-1 {
+	max-width: 600px;
+	margin: 20px auto;
+	border: solid 2px #FCD502;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.info-1 h2 {
+	padding: 10px;
+	font-size: 1.5em;
+}
+.info-1 img {
+	width: 300px;
+}
+
+.info-2 {
+	max-width: 600px;
+	margin: 20px auto;
+	border: solid 2px #FCD502;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.info-2 h2 {
+	padding: 10px;
+	font-size: 1.5em;
+}
+.info-2 img {
+	width: 300px;
+}
+
+.info-3 {
+	max-width: 600px;
+	margin: 20px auto;
+	border: solid 2px #FCD502;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.info-3 h2 {
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+.inputs {
+	margin: 10px;
+ padding: 10px;
+}
